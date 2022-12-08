@@ -7,7 +7,10 @@ body {
 p{
 	text-align: left;
 }
-	
+
+p1{
+	text-align: center;
+}
 .row p::first-letter {
 		font-size: 2.8em;
 		color: #000080;
@@ -32,18 +35,22 @@ h1, h3, h2, h4, h5, h6 {
 }
 
 .footer-blurb {
-    padding: 15px 0;
+    padding: 15px 0px;
 	background-image: url(hg.jpg);
 	background-repeat: repeat-x;
 }
     
 .footer-blurb-item {
     padding: 30px;
+	border-color: red;
+	border-width: 5px;
+	border-style: solid;
     }
  
 .small-print {
 	background-color: #fff;
 	padding: 30px 0;
+	
 }
 
 .feature,
